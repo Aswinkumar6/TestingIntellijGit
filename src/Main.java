@@ -9,7 +9,7 @@ public class Main {
 
     }
     public static void preHandle(String url){
-        String newUsername = "jane456";
+        String newUsername = "jan";
         String newUrl = url.replaceAll(REGEX, "/$1/" + newUsername + "/");
         System.out.println(newUrl);
     }
